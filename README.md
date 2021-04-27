@@ -14,11 +14,11 @@
 -  2 * 1 -> 2 ; True
 -  2 * 2 -> 4 ; True
 
-**XOR : NUM1 + NUM2**
--  1 + 1 -> 2 ; True
--  1 + 2 -> 3 ; False
--  2 + 1 -> 3 ; False
--  2 + 2 -> 4 ; True
+**XOR : NOT(NUM1 + NUM2)**
+- 1+ 1 + 1 -> 3 ; False
+- 1+ 1 + 2 -> 4 ; True
+- 1+ 2 + 1 -> 4 ; True
+- 1+ 2 + 2 -> 5 ; False
 
 **AND : (NUM1 + NUM2) + (NUM1 * NUM2)**
 -  (1 + 1) + (1 * 1) -> 3 ; False
